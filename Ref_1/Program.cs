@@ -15,13 +15,30 @@ namespace Ref
     */
     class Program
     {
-        static void Resize()
+        static void Resize(ref int [] myArray, int namber)
         {
-
+            myArray=new int[namber];
         }
         static void Main() 
         {
-        
+            int[] myArray = new int[5];
+
+            Console.WriteLine("Введите число для изменения колличества элементов массива: ");
+
+            int namber=5+int.Parse(Console.ReadLine());
+
+            if (namber >= 0)
+
+            {
+                Resize(ref myArray, namber);
+
+                Console.WriteLine("Колличество элементов массива: ");
+
+                Console.WriteLine(myArray.Length);
+            }
+            else Console.WriteLine("Колличество элементов массива меньше ноля!");
+
+            Console.ReadLine();
         }
 
     }
