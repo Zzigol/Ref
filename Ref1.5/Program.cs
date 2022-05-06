@@ -6,27 +6,32 @@ namespace Ref
      * 1. Написать метод Resize изменяющий количество элементов
 массива (метод должен иметь возможность увеличить или
 уменьшить количество элементов массива).
-
-2. Написать методы для добавления элемента в начало массива, в
-конец массива и по указанному индексу.
-
-3. Написать методы для удаления первого элемента массива,
-последнего элемента массива и элемента по указанному индексу.
     */
     class Program
     {
-        static void Resize(ref int [] myArray, int namber)
+        static void Resize(ref int[] myArray, int namber)
         {
-            myArray=new int[namber];
+            int[] myArrayNew = new int[namber];
+            if (myArray.Length <= myArrayNew.Length)
+            {
+                for (int i = 0; i < myArray.Length; i++)
+                    myArrayNew[i] = myArray[i];
+            }
+            else
+            {
+                for (int i = 0; i < myArrayNew.Length; i++)
+                    myArrayNew[i] = myArray[i];
+            }
+            myArray=myArrayNew;
         }
-        static void Main() 
+        static void Main()
         {
-            
-            int[] myArray = new int[] {1,2,3};
-            
+
+            int[] myArray = new int[] { 1, 2, 3,4 , 5, 5, 5 ,5 ,5 ,5 ,5 };
+
             Console.WriteLine("Введите число для изменения колличества элементов массива: ");
 
-            int namber= myArray.Length + int.Parse(Console.ReadLine());
+            int namber = myArray.Length + int.Parse(Console.ReadLine());
 
             if (namber >= 0)
 
