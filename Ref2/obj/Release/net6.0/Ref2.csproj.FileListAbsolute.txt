@@ -1,0 +1,15 @@
+C:\Users\grinn\source\repos\Ref\Ref2\bin\Release\net6.0\Ref2.exe
+C:\Users\grinn\source\repos\Ref\Ref2\bin\Release\net6.0\Ref2.deps.json
+C:\Users\grinn\source\repos\Ref\Ref2\bin\Release\net6.0\Ref2.runtimeconfig.json
+C:\Users\grinn\source\repos\Ref\Ref2\bin\Release\net6.0\Ref2.dll
+C:\Users\grinn\source\repos\Ref\Ref2\bin\Release\net6.0\Ref2.pdb
+C:\Users\grinn\source\repos\Ref\Ref2\obj\Release\net6.0\Ref2.csproj.AssemblyReference.cache
+C:\Users\grinn\source\repos\Ref\Ref2\obj\Release\net6.0\Ref2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\grinn\source\repos\Ref\Ref2\obj\Release\net6.0\Ref2.AssemblyInfoInputs.cache
+C:\Users\grinn\source\repos\Ref\Ref2\obj\Release\net6.0\Ref2.AssemblyInfo.cs
+C:\Users\grinn\source\repos\Ref\Ref2\obj\Release\net6.0\Ref2.csproj.CoreCompileInputs.cache
+C:\Users\grinn\source\repos\Ref\Ref2\obj\Release\net6.0\Ref2.dll
+C:\Users\grinn\source\repos\Ref\Ref2\obj\Release\net6.0\refint\Ref2.dll
+C:\Users\grinn\source\repos\Ref\Ref2\obj\Release\net6.0\Ref2.pdb
+C:\Users\grinn\source\repos\Ref\Ref2\obj\Release\net6.0\Ref2.genruntimeconfig.cache
+C:\Users\grinn\source\repos\Ref\Ref2\obj\Release\net6.0\ref\Ref2.dll

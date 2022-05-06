@@ -9,9 +9,9 @@ namespace Ref
     */
     class Program
     {
-        static void Resize(ref int[] myArray, int namber)
+        static void Resize<T>(ref T[] myArray, int namber)
         {
-            int[] myArrayNew = new int[namber];
+            T[] myArrayNew = new T[namber];
             
                 for (int i = 0; i < myArray.Length && i < myArrayNew.Length; i++)
                     myArrayNew[i] = myArray[i];
@@ -20,25 +20,22 @@ namespace Ref
         static void Main()
         {
 
-            int[] myArray = new int[] { 1, 2, 3, 4 , 5, 5, 5 ,5 ,5 ,5 ,5 };
+            //int[] myArray = new int[] { 1, 2, 3, 4 , 5, 5, 5 ,5 ,5 ,5 ,5 };
+            string[] myArray = new string[] { "one", "two", "three" };
 
             Console.WriteLine("Введите число для изменения колличества элементов массива: ");
 
             int namber = int.Parse(Console.ReadLine());
 
-            if (namber >= 0)
-
-            {
+            
                 Resize(ref myArray, namber);
 
                 Console.WriteLine("Колличество элементов массива: ");
 
                 Console.WriteLine(myArray.Length);
 
-                foreach (int i in myArray) Console.WriteLine(i);
-            }
-            else Console.WriteLine("Колличество элементов массива меньше ноля!");
-
+               //foreach (int i in myArray) Console.WriteLine(i);
+            
             Console.ReadLine();
         }
 
