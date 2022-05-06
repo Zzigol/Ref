@@ -1,0 +1,15 @@
+C:\Users\grinn\source\repos\Ref\Ref3\obj\Release\net6.0\Ref3.csproj.AssemblyReference.cache
+C:\Users\grinn\source\repos\Ref\Ref3\obj\Release\net6.0\Ref3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\grinn\source\repos\Ref\Ref3\obj\Release\net6.0\Ref3.AssemblyInfoInputs.cache
+C:\Users\grinn\source\repos\Ref\Ref3\obj\Release\net6.0\Ref3.AssemblyInfo.cs
+C:\Users\grinn\source\repos\Ref\Ref3\obj\Release\net6.0\Ref3.csproj.CoreCompileInputs.cache
+C:\Users\grinn\source\repos\Ref\Ref3\bin\Release\net6.0\Ref3.exe
+C:\Users\grinn\source\repos\Ref\Ref3\bin\Release\net6.0\Ref3.deps.json
+C:\Users\grinn\source\repos\Ref\Ref3\bin\Release\net6.0\Ref3.runtimeconfig.json
+C:\Users\grinn\source\repos\Ref\Ref3\bin\Release\net6.0\Ref3.dll
+C:\Users\grinn\source\repos\Ref\Ref3\bin\Release\net6.0\Ref3.pdb
+C:\Users\grinn\source\repos\Ref\Ref3\obj\Release\net6.0\Ref3.dll
+C:\Users\grinn\source\repos\Ref\Ref3\obj\Release\net6.0\refint\Ref3.dll
+C:\Users\grinn\source\repos\Ref\Ref3\obj\Release\net6.0\Ref3.pdb
+C:\Users\grinn\source\repos\Ref\Ref3\obj\Release\net6.0\Ref3.genruntimeconfig.cache
+C:\Users\grinn\source\repos\Ref\Ref3\obj\Release\net6.0\ref\Ref3.dll
