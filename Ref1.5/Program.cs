@@ -12,26 +12,19 @@ namespace Ref
         static void Resize(ref int[] myArray, int namber)
         {
             int[] myArrayNew = new int[namber];
-            if (myArray.Length <= myArrayNew.Length)
-            {
-                for (int i = 0; i < myArray.Length; i++)
+            
+                for (int i = 0; i < myArray.Length && i < myArrayNew.Length; i++)
                     myArrayNew[i] = myArray[i];
-            }
-            else
-            {
-                for (int i = 0; i < myArrayNew.Length; i++)
-                    myArrayNew[i] = myArray[i];
-            }
             myArray=myArrayNew;
         }
         static void Main()
         {
 
-            int[] myArray = new int[] { 1, 2, 3,4 , 5, 5, 5 ,5 ,5 ,5 ,5 };
+            int[] myArray = new int[] { 1, 2, 3, 4 , 5, 5, 5 ,5 ,5 ,5 ,5 };
 
             Console.WriteLine("Введите число для изменения колличества элементов массива: ");
 
-            int namber = myArray.Length + int.Parse(Console.ReadLine());
+            int namber = int.Parse(Console.ReadLine());
 
             if (namber >= 0)
 
